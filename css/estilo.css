@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#topo {
+  height: 20vh;
+  background-color: #FFC947;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #185ADB;
+  margin-bottom: 20px;
+}
+
+#titulo {
+  color: #185ADB;
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+}
+
+.Box-Dicas {
+  width: 70vw;
+
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-family: 'Secular One', sans-serif;
+  background-color: #DEEEEA;
+}
+
+.titulo-destaque {
+  color: #185ADB;
+  font-weight: 700;
+}
+
+.Box-Dicas h5 {
+  color: #e36410;
+  font-weight: 500;
+}
+
+.Box-Dicas p {
+  color: #1f273d;
+  font-weight: 200;
+}
+
+.Box-Dicas header{
+  margin-bottom: 10px;
+}
+
+.box-noticia{
+  ont-family: 'Secular One', sans-serif;
+  background-color: #DEEEEA;
+  border: 1px solid black;
+  width: 23vw;
+  margin: 10px;
+
+}
+
+.centralizado{
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 71vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.secao-noticias{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.img-box-noticia{
+
+  width: 100%;
+}
+
+.titulo-box{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
